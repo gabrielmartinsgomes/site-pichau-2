@@ -49,3 +49,25 @@ opacity: 0;
 transform: rotate(45deg);
 top:8px;
 }
+.card{
+  margin-right: 15px;
+  margin-top: 15px;
+  width: 15%;
+  height: auto;
+  
+  
+}
+.card-body{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: fit-content;
+  
+ 
+}
+.col-4{
+  display: flex;
+}
+div.main{
+  border-bottom: 2px solid red;
+
+}
