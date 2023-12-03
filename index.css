@@ -1,3 +1,33 @@
+
+*{
+ padding: 0;
+ margin: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+body{
+  height: 100%;
+}
+main{
+  font-size: clamp(0.1em, 0.3em + 1vw, 0.7em);
+  border-bottom: 0.5vh solid white;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  align-items: center;
+}
+header{
+  height: 25%;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer{
+  width: 100%;
+  background-color: black;
+}
+
 .fakeimg {
   height: 200px;
   background: #aaa;
@@ -53,9 +83,11 @@ label span:nth-child(3) {
 }
 
 .card {
-  margin-right: 15px;
+  font-size: clamp(0.1em, 0.3em + 1vw, 0.7em);
+  align-items: center;
+  margin-left: 15px;
   margin-top: 15px;
-  width: 15%;
+  width: 20%;
   height: auto;
 
 
@@ -79,16 +111,25 @@ div.main {
 
 }
 
-footer img
+#image
  {
-  max-width: 90%;
-  width: 500px;
-  height: 123;
+  max-width: 500px;
+  width: 50%;
+  max-height: 400px;
+  height: 60%;
   margin: 20%;
+  
 }
 
-img.img-fluid {
-  width: 200px;
+img.img-fluid,
+#logotipo {
+  max-width: 500px;
+  max-height: 400px;
+  width: 50%;
+  height: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
 }
 
 .cinza {
@@ -98,4 +139,30 @@ img.img-fluid {
   div.col-md-5{
     margin-top: 5%;
   }
-
+.h4{
+  text-align: left;
+  font-size: clamp(0.3em, 0.8em + 1.2vw, 1.3em);
+  margin-top: 15px;
+}
+#final{
+  text-align: right;
+  margin: 0px 70px 20px 70px;
+  padding: 10px 5%;
+  font-size: clamp(0.1em, 0.5em + 1.5vw, 1em);
+}
+#final a {
+  text-align: center;
+}
+#title{
+  font-size: clamp(1em, 1.5em + 2.5vw, 2em);
+  text-align: left;
+}
+#title2{
+  font-size: clamp(0.5em, 1em + 2vw, 1.5em);
+  text-align: right;
+}
+#preco{
+  grid-column: 1;
+  text-align: left;
+  font-size: clamp(1.5em, 1em + 3vw, 2.5em);
+}
