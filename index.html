@@ -11,12 +11,12 @@
 </head>
 
 <body>
-    <header class="container-fluid p-5 text-white ">
-        <div class="row">
+    <header class="container-fluid p-5 bg-dark text-white">
+        <nav class="row">
             <div class="col-sm-3">
                 <div class="offcanvas offcanvas-start bg-dark text-white" id="demo">
                     <div class="offcanvas-header">
-                        <img id="logotipo" src="img/icon-gaming-white.png" alt="">
+                        <img id="img-fluid" src="img/icon-gaming-white.png" alt="">
                         <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"></button>
                     </div>
                     <div class="offcanvas-body">
@@ -36,22 +36,17 @@
 
                 </button>
             </div>
-            <div class="col-4">
+            <div class="col-md-6 text-center">
                 <img class="img-fluid" src="img/icon-gaming-white.png" alt="">
                 <h1 id="title" class="h1">Pichau: A melhor loja gamer</h1>
-
-
             </div>
-
-        </div>
-        <div class="col-md-5">
-            <h2 id="title2" class="h2">Encontre a peça que falta para a sua Máquina!</h2>
-        </div>
-
+            <div class="col-md-3 text-end">
+                <h2 id="title2" class="h2">Encontre a peça que falta para a sua Máquina!</h2>
+            </div>
+        </nav>
     </header>
-    <main class="container-fluid ">
-
-        <div class="row p-5 main">
+    <main class="container-fluid bg-secondary">
+        <section class="row p-5 main">
             <h1 class="h1 text-white">Destaques</h1>
             <div class="card">
                 <a href="https://www.pichau.com.br/cadeira-gamer-tgt-heron-tc-preto-e-cinza-tgt-hrtc-bl02">
@@ -112,15 +107,15 @@
                     <p id="preco">R$699,99 à vista</p>
                 </div>
             </div>
-        </div>
+        </section>
     </main>
-    <footer class="final container-fluid  text-white">
-        <div class="row">
-            <div class="col-sm-7 text-center m-10">
+    <footer class="final container-fluid bg-dark text-white">
+        <section class="row">
+            <div class="col-md-7 text-center m-10">
                 <a class="a" href="index.html"><img class="image" src="img/icon-gaming-white.png" alt=""></a>
             </div>
             <div class="col-md-5 text-center">
-                <p class="text-center p" style="color: #e90313;">PICHAU INFORMÁTICA® É UMA MARCA REGISTRADA DE BAZAM E PICHAU
+                <p class="text-danger text-center p">PICHAU INFORMÁTICA® É UMA MARCA REGISTRADA DE BAZAM E PICHAU
                     INFORMATICA LTDA | CNPJ: 09.376.495/0001-22</p>
                 <address>Avenida Santos Dumont, 7199 - Aventureiro, Joinville - SC - 89226-435</address>
                 <p class="cinza p">Preços e condições de pagamento exclusivos para compras via internet e podem variar
@@ -130,7 +125,7 @@
                     fabricante. Ofertas válidas até o término de nossos estoques. Vendas sujeitas à análise e
                     confirmação de dados.</p>
             </div>
-        </div>
+        </section>
     </footer>
 </body>
 
