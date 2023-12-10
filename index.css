@@ -77,6 +77,9 @@ footer{
   background-color: black;
   
 }
+nav{
+  width: 100%;
+}
 
 .fakeimg {
   height: 200px;
@@ -210,4 +213,11 @@ div.main {
 }
 #demo{
   background-color: #303030;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color:antiquewhite;
 }
