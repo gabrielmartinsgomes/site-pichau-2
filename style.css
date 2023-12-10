@@ -81,7 +81,17 @@ footer{
 nav{
   width: 100%;
 }
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
 
+nav li {
+  margin-right: 20px;
+}
 .fakeimg {
   height: 200px;
   background: #303030;
@@ -135,7 +145,7 @@ label span:nth-child(3) {
   transform: rotate(45deg);
   top: 8px;
 }
-
+/* estilo cards*/
 .card {
   align-items: center;
   margin-left: 15px;
@@ -222,6 +232,8 @@ a {
 a:hover {
   color:antiquewhite;
 }
+
+/*cards responsivosr*/
 @media screen and (max-width: 767px) {
   .card {
     width: 100%;
@@ -232,4 +244,3 @@ a:hover {
     flex-wrap: wrap;
   }
 }
-
